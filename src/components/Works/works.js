@@ -10,11 +10,11 @@ const Works = () => {
         <h1 className="worksTitle">Projects</h1>
         <div className='projects'>
           <div className='project pro1'>
-            <a href='https://github.com/Pariharayush/QR-CODE-GENERATOR' target='_blank'><img src={img1} /></a>
+            <a href='https://github.com/Pariharayush/QR-CODE-GENERATOR' target='_blank' rel="noreferrer"><img src={img1} alt='s'/></a>
             <p>QR Code Generator</p>
           </div>
           <div className='project pro2'>
-            <img src={img2} />
+            <img src={img2} alt=''/>
             <p>Electricity Management System</p>
           </div>
         </div>

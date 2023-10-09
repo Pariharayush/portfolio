@@ -7,7 +7,7 @@ import Github from '../../assets/github.png';
 import Twitter from '../../assets/twitter.png';
 import Leetcode from '../../assets/LeetCode.png';
 // import emailjs from '@email.js/browser';
-import {useForm, SubmitHandler} from "react-hook-form";
+import {useForm} from "react-hook-form";
 
 
 
@@ -59,10 +59,10 @@ const Contact = () => {
                 <textarea {...register('message')} className='msg' name="message" rows="5" placeholder='Your Message'></textarea>
                 <button type='submit' value='Send' className="submitBtn">Submit</button>
                 <div className="links">
-                    <a href='https://www.linkedin.com/in/ayush-parihar-4b9969254/' target='_blank'><img src={Linkedin} alt="Linkedin" className="link" /></a>
-                    <a href='https://github.com/Pariharayush' target='_blank'><img src={Github} alt="Github" className="link" /></a>
-                    <a href='https://twitter.com/AyushParih92842' target='_blank'><img src={Twitter} alt="Twitter" className="link" /></a>
-                    <a href='https://leetcode.com/Parihar_22/' target='_blank'><img src={Leetcode} alt="Leetcode" className="link" /></a>
+                    <a href='https://www.linkedin.com/in/ayush-parihar-4b9969254/' target='_blank' rel="noreferrer"><img src={Linkedin} alt="Linkedin" className="link" /></a>
+                    <a href='https://github.com/Pariharayush' target='_blank' rel="noreferrer"><img src={Github} alt="Github" className="link" /></a>
+                    <a href='https://twitter.com/AyushParih92842' target='_blank' rel="noreferrer"><img src={Twitter} alt="Twitter" className="link" /></a>
+                    <a href='https://leetcode.com/Parihar_22/' target='_blank' rel="noreferrer"><img src={Leetcode} alt="Leetcode" className="link" /></a>
                 </div>
 
             </form>
